@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-const connect=mongoose.connect('mongodb+srv://avanishYadav:avanish@cluster0.dq3nqba.mongodb.net/Login-tut');
+const connect=mongoose.connect('cluster url');
 
 //check database connected or not 
 connect.then(()=>{
